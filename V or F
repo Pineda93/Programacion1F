@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    char condicion;
+    bool resultado;
+    cout << "S o N: ";
+    cin >> condicion;
+
+    if (condicion = "S")
+    {
+        resultado = true;
+        cout << "S es: " << resultado;
+    }
+    else if (condicion = "N")
+    {
+        resultado = false;
+        cout << "N es: " << resultado;
+    }
+    else
+    {
+        cout << "Lo Siento, porfavor ingresa una de las 2 opciones";
+    }
+
+    return 0;
+    
+
+
+
+}
