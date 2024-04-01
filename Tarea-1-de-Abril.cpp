@@ -2,9 +2,11 @@
 using namespace std;
 
 int main(int argc, char *argv[]){
-    int n = 1;
+    int n = 1, c;
     cout << "Serie de Fibonacci" << endl;
-    for (int i = 0; i < 40;)
+    cout << "Ingrese el limite: ";
+    cin >> c;
+    for (int i = 0; i < c;)
     {
         n= n + i;
         i= i + n;
