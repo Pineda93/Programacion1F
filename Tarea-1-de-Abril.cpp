@@ -6,7 +6,7 @@ int main(int argc, char *argv[]){
     cout << "Serie de Fibonacci" << endl;
     cout << "Ingrese el limite: ";
     cin >> c;
-    for (int i = 0; i < c;)
+    for (int i = 0; n < c; c++)
     {
         n= n + i;
         i= i + n;
