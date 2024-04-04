@@ -10,25 +10,25 @@ int main(int argc, char *argv[]){
         cout << "Area Comun";
         break;
     case 2:
-    cout << "No nos encontramos en este semestre";
-    break;
+        cout << "No nos encontramos en este semestre";
+        break;
     case 3:
-    cout << "Area Comun";
-    break;
+        cout << "Area Comun";
+        break;
     case 4:
-    cout << "No nos encontramos en este semestre";
-    break;
+        cout << "No nos encontramos en este semestre";
+        break;
     case 5:
-    cout << "Area Especifica";
-    break;
+        cout << "Area Especifica";
+        break;
     case 6:
-    cout << "No nos encontramos en este semestre";
-    break;
+        cout << "No nos encontramos en este semestre";
+        break;
     case 7:
-    cout << "Area Especifica";
-    break;
+        cout << "Area Especifica";
+        break;
     default:
-    cout << "Ingrese otro numero";
+        cout << "No nos encontramos en este semestre";
         break;
     }
 return 0;
