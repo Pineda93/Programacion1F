@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingresa un numero: ");
+        
+        Integer numero = scanner.nextInt();
+        
+        if (numero % 2 == 0) {
+            System.out.print("Par");
+        }
+        else {
+            System.out.print("Impar");
+            }
+    }
+}

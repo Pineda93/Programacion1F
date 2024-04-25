@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingresa una vocal: ");
+        
+        String vocal1 = scanner.nextLine();
+        
+        if (vocal1.equals ("a") || vocal1.equals ("A")) {
+            System.out.print("Abduzcan");
+        }
+        else if (vocal1.equals("e") || vocal1.equals ("E")){
+            System.out.print("Epifenomenalismo");
+        }
+        else if (vocal1.equals("i") || vocal1.equals ("I")){
+            System.out.print("Imipramina");
+        }
+        else if (vocal1.equals("o") || vocal1.equals ("O")){
+            System.out.print("Ornithorhynchus anatinus");
+        }
+        else if (vocal1.equals("u") || vocal1.equals ("U")){
+            System.out.print("Unicornio");
+        }
+        else {
+            System.out.print("Siga instrucciones");
+            }
+    }
+}
