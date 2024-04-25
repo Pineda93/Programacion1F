@@ -36,9 +36,9 @@ void calcu2(double r4, double r5, double r6){
     cout <<"Ingrese Grado No. 2: " << endl;
     cin >> r5;
     r6= 180-(r4+r5);
-    cout << "La hipotenusa es: " << r6 << endl;
+    cout << "El grado restante es: " << r6 << endl;
 }
-void calcu1(double r1, double r2, double r3){
+void calcu1(double r1, double r2, double r3){5
     cout <<"Ingrese Cateto No. 1: " << endl;
     cin >> r1;
     cout <<"Ingrese Cateto No. 2: " << endl;

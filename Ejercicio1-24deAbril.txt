@@ -1,0 +1,64 @@
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        String t1 = "Hola Inge";
+        String t2 = ", Como esta?";
+        
+        System.out.println(t1 + t2);
+        
+        Integer n1 = 10;
+        Integer n2 = 20;
+        System.out.println(n1 + n2);
+        
+        Double n10 = Double.valueOf(n1);
+        System.out.println(n10);
+        
+        String n20 = "100";
+        Double n30 = Double.valueOf(n20);
+        System.out.println(n30);
+        
+        Double n40 = 50.0;
+        String t10 = n40.toString();
+        System.out.println(t10);
+        
+        Double n60 = 60.0;
+        Integer n50 = n60.intValue();
+        System.out.println(n50);
+        
+        Double num1 = 3.14;
+        Double num2 = 2.8689;
+        Double num3 = 5.85;
+        Double num4 = 4.49;
+        Double num5 = 2.10;
+        
+        Integer num10 = num1.intValue();
+        Integer num20 = num2.intValue();
+        Integer num30 = num3.intValue();
+        Integer num40 = num4.intValue();
+        Integer num50 = num5.intValue();
+        
+        System.out.println("Double a Integer");
+        System.out.println(num10);
+        System.out.println(num20);
+        System.out.println(num30);
+        System.out.println(num40);
+        System.out.println(num50);
+        
+        Integer num100 = 1945;
+        Integer num200 = 2010;
+        Integer num300 = 218;
+        Integer num400 = 684;
+        
+        Double num101 = Double.valueOf(num100);
+        Double num102 = Double.valueOf(num200);
+        Double num103 = Double.valueOf(num300);
+        Double num104 = Double.valueOf(num400);
+        
+        System.out.println("Integer a Double");
+        System.out.println(num101);
+        System.out.println(num102);
+        System.out.println(num103);
+        System.out.println(num104);
+    }
+}
